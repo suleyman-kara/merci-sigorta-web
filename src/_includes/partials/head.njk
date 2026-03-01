@@ -1,0 +1,64 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+
+    {# ── Primary SEO ── #}
+    <title>{{ t.meta.title }}</title>
+    <meta name="description" content="{{ t.meta.description }}">
+    <meta name="author" content="{{ site.name }}">
+    <link rel="canonical" href="{{ site.url }}{{ site.langUrls[lang] }}">
+
+    {# ── Hreflang for all target countries ── #}
+    {%- for item in site.hreflangMap %}
+    <link rel="alternate" hreflang="{{ item.hreflang }}" href="{{ site.url }}{{ item.url }}">
+    {%- endfor %}
+
+    {# ── Open Graph ── #}
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ site.langUrls[lang] }}">
+    <meta property="og:title" content="{{ t.meta.ogTitle }}">
+    <meta property="og:description" content="{{ t.meta.ogDescription }}">
+    <meta property="og:image" content="{{ site.url }}/img/img-russian-en-1.webp">
+    <meta property="og:locale" content="{{ lang }}">
+
+    {# ── Schema.org LocalBusiness ── #}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "{{ site.name }}",
+      "image": "{{ site.url }}{{ site.logoUrl }}",
+      "url": "{{ site.url }}",
+      "telephone": "{{ site.phone }}",
+      "email": "{{ site.email }}",
+      "inLanguage": "{{ lang }}",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "{{ site.address.street }} {{ site.address.building }}",
+        "addressLocality": "{{ site.address.city }}",
+        "addressRegion": "{{ site.address.region }}",
+        "addressCountry": "{{ site.address.country }}"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": {{ site.openingHours.days | dump | safe }},
+        "opens": "{{ site.openingHours.opens }}",
+        "closes": "{{ site.openingHours.closes }}"
+      },
+      "sameAs": [
+        "{{ site.instagram }}",
+        "{{ site.facebook }}",
+        "{{ site.telegram }}"
+      ]
+    }
+    </script>
+
+    {# ── Fonts (self-hosted) ── #}
+    <link rel="preload" href="/fonts/inter-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/cormorant-garamond-600.woff2" as="font" type="font/woff2" crossorigin>
+
+    {# ── CSS (inline for performance) ── #}
+    {%- set css %}{% include "css/style.css" %}{% endset -%}
+    <style>{{ css | cssmin | safe }}</style>
+</head>

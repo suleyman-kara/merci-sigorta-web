@@ -1,0 +1,33 @@
+    <!-- ═══════════════════════ SHOWCASE ═══════════════════════ -->
+    <section id="showcase" class="section-pad" aria-labelledby="showcase-h2">
+        <div class="container">
+            <div class="services-header animate" style="margin-bottom:2.5rem;">
+                <span class="section-label">{{ t.showcase.label }}</span>
+                <h2 id="showcase-h2">{{ t.showcase.title }}</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="showcase-grid">
+
+                <div class="showcase-card animate" style="--delay:.1s">
+                    {% if lang == "ru" %}
+                        {% image "img/img-russian-3.webp", t.showcase.card1Title, "(max-width: 768px) 100vw, 560px" %}
+                    {% endif %}
+                    <div class="showcase-card-body">
+                        <h3>{{ t.showcase.card1Title }}</h3>
+                        <p>{{ t.showcase.card1Desc }}</p>
+                    </div>
+                </div>
+
+                <div class="showcase-card animate" style="--delay:.2s">
+                    {% if lang == "ru" %}
+                        {% image "img/img-russian-2.webp", t.showcase.card2Title, "(max-width: 768px) 100vw, 560px" %}
+                    {% endif %}
+                    <div class="showcase-card-body">
+                        <h3>{{ t.showcase.card2Title }}</h3>
+                        <p>{{ t.showcase.card2Desc }}</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>

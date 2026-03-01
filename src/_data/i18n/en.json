@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "Merci Insurance & Consulting — Insurance, Real Estate, Consulting | Erdemli, Mersin",
+        "description": "Insurance, real estate, residency and consulting services in Mersin, Turkey. Expert team, personalised solutions.",
+        "ogTitle": "Merci Insurance & Consulting",
+        "ogDescription": "Expert insurance and consulting firm based in Mersin, Turkey."
+    },
+    "images": {
+        "heroSrc": "img/img-russian-en-1.webp",
+        "heroAlt": "Merci Insurance Company — services overview",
+        "insuranceSrc": "img/img-en-1.webp",
+        "insuranceAlt": "Merci Insurance — services"
+    },
+    "nav": {
+        "about": "About",
+        "services": "Services",
+        "insurance": "Insurance",
+        "contact": "Contact",
+        "logoAlt": "Merci Insurance",
+        "menuOpen": "Open menu"
+    },
+    "hero": {
+        "eyebrow": "Erdemli, Mersin — Turkey",
+        "title": "Trusted Insurance<br>& Consulting",
+        "tagline": "Our expert team is here for your insurance, real estate, residency and consulting needs.",
+        "callBtn": "Call Us",
+        "waBtn": "WhatsApp"
+    },
+    "about": {
+        "label": "About Us",
+        "title": "Solution-Oriented Service Excellence",
+        "p1": "Merci Insurance & Consulting is based in Erdemli, Mersin, serving clients across all of Turkey. Our expert team provides solution-oriented support in insurance, real estate, citizenship, legal consulting, and much more.",
+        "p2": "Putting client satisfaction first, we craft personalised solutions and stand by you every step of the way.",
+        "stat1Num": "5+",
+        "stat1Label": "Years Experience",
+        "stat2Num": "8",
+        "stat2Label": "Services",
+        "stat3Num": "3",
+        "stat3Label": "Languages",
+        "stat4Num": "1K+",
+        "stat4Label": "Happy Clients"
+    },
+    "services": {
+        "label": "Our Services",
+        "title": "Tailored Solutions for You",
+        "items": [
+            {
+                "title": "Insurance",
+                "desc": "We provide comprehensive insurance packages tailored to your every need."
+            },
+            {
+                "title": "Real Estate",
+                "desc": "Our expert team finds real estate solutions matching your budget and vision."
+            },
+            {
+                "title": "Residency & Citizenship",
+                "desc": "Expert assistance for Turkish residency permits and citizenship applications."
+            },
+            {
+                "title": "Legal Support",
+                "desc": "Reliable legal consulting services for all your legal needs."
+            },
+            {
+                "title": "Sworn Translation",
+                "desc": "Certified sworn translation of official documents, accurate and prompt."
+            },
+            {
+                "title": "Financial Advisory",
+                "desc": "Professional financial consulting to reach your financial goals."
+            },
+            {
+                "title": "Transfer Services",
+                "desc": "Safe and comfortable transfer services throughout the region."
+            },
+            {
+                "title": "Renovation",
+                "desc": "Turnkey renovation and interior finishing solutions."
+            }
+        ]
+    },
+    "insurance": {
+        "label": "Insurance Services",
+        "title": "For All Your Insurance Needs",
+        "desc": "We cover all insurance needs — from vehicle and home to health and freight.",
+        "cta": "Get a Quote",
+        "types": [
+            "Traffic Insurance",
+            "Comprehensive Auto",
+            "DASK (Earthquake)",
+            "Health Insurance",
+            "Home Insurance",
+            "Life Insurance",
+            "Freight Insurance",
+            "Fire Insurance"
+        ]
+    },
+    "showcase": {
+        "label": "Highlighted Services",
+        "title": "Consulting & Renovation",
+        "card1Title": "Residency, Citizenship & Legal Services",
+        "card1Desc": "We guide you through every step of residency, citizenship and legal processes in Turkey.",
+        "card2Title": "Turnkey Renovation & Decoration",
+        "card2Desc": "Our professional team transforms your property into your dream space — turnkey."
+    },
+    "footer": {
+        "brandName": "Insurance & Consulting",
+        "location": "Erdemli, Mersin — Turkey",
+        "copyright": "© 2026 Merci Sigorta & Danışmanlık"
+    }
+}

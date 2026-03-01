@@ -1,0 +1,16 @@
+{%- set t = i18n[lang] -%}
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+{%- include "partials/head.njk" -%}
+<body>
+  {%- include "partials/navbar.njk" -%}
+  {%- include "partials/hero.njk" -%}
+  {%- include "partials/about.njk" -%}
+  {%- include "partials/services.njk" -%}
+  {%- include "partials/insurance.njk" -%}
+  {%- include "partials/showcase.njk" -%}
+  {%- include "partials/footer.njk" -%}
+
+  <script src="/js/main.js" defer></script>
+</body>
+</html>

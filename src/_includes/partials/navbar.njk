@@ -1,0 +1,36 @@
+    <!-- ═══════════════════════ NAVBAR ═══════════════════════ -->
+    <header>
+        <nav id="navbar" role="navigation" aria-label="Main navigation">
+            <div class="nav-inner">
+
+                <!-- Logo -->
+                <a href="#hero" class="nav-logo" aria-label="{{ site.name }}">
+                    <img src="/img/new_logo.webp" alt="{{ t.nav.logoAlt }}" height="40" width="160">
+                </a>
+
+                <!-- Links & Language -->
+                <ul id="nav-menu" role="menubar">
+                    <li role="none"><a href="#about" role="menuitem">{{ t.nav.about }}</a></li>
+                    <li role="none"><a href="#services" role="menuitem">{{ t.nav.services }}</a></li>
+                    <li role="none"><a href="#insurance" role="menuitem">{{ t.nav.insurance }}</a></li>
+                    <li role="none"><a href="#contact" role="menuitem">{{ t.nav.contact }}</a></li>
+                    
+                    <li role="none" class="nav-lang-item">
+                        <div class="lang-switcher" role="group" aria-label="Language">
+                            <a href="/ru/"{% if lang == "ru" %} class="active" aria-current="page"{% endif %} aria-label="Русский">RU</a>
+                            <a href="/tr/"{% if lang == "tr" %} class="active" aria-current="page"{% endif %} aria-label="Türkçe">TR</a>
+                            <a href="/en/"{% if lang == "en" %} class="active" aria-current="page"{% endif %} aria-label="English">EN</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- Hamburger -->
+                <button id="hamburger" class="hamburger" aria-expanded="false" aria-controls="nav-menu"
+                    aria-label="{{ t.nav.menuOpen }}">
+                    <span></span><span></span><span></span>
+                </button>
+
+            </div>
+        </nav>
+        <div id="nav-overlay" aria-hidden="true"></div>
+    </header>
