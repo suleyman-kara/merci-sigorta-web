@@ -55,11 +55,11 @@ export default function (eleventyConfig) {
     /* ── Logo Image Shortcode (smaller widths) ── */
     eleventyConfig.addShortcode(
         "logoImage",
-        async function (src, alt, sizes = "320px") {
+        async function (src, alt, sizes = "(max-width: 768px) 200px, 346px") {
             const inputPath = path.join("src", src);
 
             const metadata = await Image(inputPath, {
-                widths: [320, 640],
+                widths: [200, 400, 700],
                 formats: ["avif", "webp"],
                 outputDir: "./docs/img/",
                 urlPath: "/img/",
