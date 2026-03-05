@@ -385,9 +385,9 @@ p {
 }
 
 #navbar.scrolled #nav-menu .lang-switcher a.active {
-  background: var(--teal);
+  background: var(--teal-deeper);
   color: var(--white);
-  border-color: var(--teal);
+  border-color: var(--teal-deeper);
 }
 
 /* Hamburger */
@@ -1071,9 +1071,9 @@ footer {
   }
 
   #nav-menu .lang-switcher a.active {
-    background: var(--teal);
+    background: var(--teal-deeper);
     color: var(--white);
-    border-color: var(--teal);
+    border-color: var(--teal-deeper);
   }
 
   .services-grid {
