@@ -5,8 +5,10 @@
     const hamburger = document.getElementById('hamburger');
     const navMenu = document.getElementById('nav-menu');
     const overlay = document.getElementById('nav-overlay');
+    const navbar = document.getElementById('navbar');
 
     function openNav() {
+        navMenu.style.setProperty('--current-nav-h', navbar.offsetHeight + 'px');
         hamburger.setAttribute('aria-expanded', 'true');
         navMenu.classList.add('open');
         overlay.classList.add('visible');
@@ -27,9 +29,12 @@
     document.querySelectorAll('#nav-menu a').forEach(a => a.addEventListener('click', closeNav));
 
     /* ── STICKY NAV ── */
-    const navbar = document.getElementById('navbar');
-    window.addEventListener('scroll', () =>
-        navbar.classList.toggle('scrolled', window.scrollY > 60),
+    window.addEventListener('scroll', () => {
+        navbar.classList.toggle('scrolled', window.scrollY > 60);
+        if (navMenu.classList.contains('open')) {
+            navMenu.style.setProperty('--current-nav-h', navbar.offsetHeight + 'px');
+        }
+    },
         { passive: true }
     );
 

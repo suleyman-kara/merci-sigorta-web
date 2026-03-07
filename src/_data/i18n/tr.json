@@ -1,9 +1,9 @@
 {
     "meta": {
-        "title": "Merci Sigorta & Danışmanlık — Sigorta, Emlak, Danışmanlık | Erdemli, Mersin",
-        "description": "Mersin/Erdemli'de sigorta, emlak, TC vatandaşlık, hukuki danışmanlık ve daha fazlası.",
-        "ogTitle": "Merci Sigorta & Danışmanlık",
-        "ogDescription": "Mersin merkezli uzman sigorta ve danışmanlık firması."
+        "title": "Merci Sigorta | Mersin Erdemli Sigorta & Danışmanlık Acentesi",
+        "description": "Mersin Erdemli'de sigorta, emlak, vatandaşlık, hukuki danışmanlık ve yeminli tercümanlık hizmetleri. Alanında uzman kadromuzla yanınızdayız.",
+        "ogTitle": "Merci Sigorta | Mersin Erdemli Sigorta & Danışmanlık",
+        "ogDescription": "Mersin Erdemli merkezli uzman sigorta acentesi ve danışmanlık firması. Güvenilir çözümler."
     },
     "images": {
         "heroSrc": "img/img-tr-1.webp",
@@ -20,7 +20,7 @@
         "menuOpen": "Menüyü aç"
     },
     "hero": {
-        "title": "Güvenilir Sigorta<br>& Danışmanlık",
+        "title": "Mersin'de Güvenilir<br>Sigorta & Danışmanlık",
         "tagline": "Uzman kadromuzla sigorta, emlak, vatandaşlık ve danışmanlık hizmetlerinde yanınızdayız.",
         "callBtn": "Bizi Arayın",
         "waBtn": "WhatsApp"
@@ -45,34 +45,42 @@
         "items": [
             {
                 "title": "Sigorta",
+                "subtitle": "Mersin Erdemli Sigorta Hizmetleri",
                 "desc": "İhtiyacınız olan tüm sigorta paketleri ile hizmetinizdeyiz."
             },
             {
                 "title": "Emlak",
+                "subtitle": "Mersin Erdemli Emlak Danışmanlığı",
                 "desc": "Bütçenize ve hayallerinize uygun gayrimenkul çözümleri sunuyoruz."
             },
             {
                 "title": "Vatandaşlık & İkamet",
+                "subtitle": "Mersin Yabancı Vatandaşlık İşlemleri",
                 "desc": "TC vatandaşlığı ve ikamet izni işlemlerinde uzman desteği."
             },
             {
                 "title": "Hukuki Destek",
+                "subtitle": "Mersin Erdemli Hukuki Danışmanlık",
                 "desc": "Her türlü hukuki konuda güvenilir danışmanlık hizmeti."
             },
             {
                 "title": "Yeminli Tercümanlık",
+                "subtitle": "Mersin Yeminli Tercüme Hizmetleri",
                 "desc": "Resmi belgelerinizin hızlı ve güvenilir yeminli çevirisi."
             },
             {
                 "title": "Finansal Danışmanlık",
+                "subtitle": "Mersin Finansal Danışmanlık",
                 "desc": "Finansal hedeflerinize ulaşmanızda profesyonel destek."
             },
             {
                 "title": "Transfer Hizmetleri",
+                "subtitle": "Mersin Erdemli Transfer & Ulaşım",
                 "desc": "Güvenli ve konforlu transfer hizmetleri ile seyahatinizi kolaylaştırın."
             },
             {
                 "title": "Tadilat İşlemleri",
+                "subtitle": "Mersin Erdemli Tadilat & Dekorasyon",
                 "desc": "Anahtar teslim tadilat ve dekorasyon çözümleri sunuyoruz."
             }
         ]

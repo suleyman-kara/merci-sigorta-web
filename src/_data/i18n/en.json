@@ -1,9 +1,9 @@
 {
     "meta": {
-        "title": "Merci Insurance & Consulting — Insurance, Real Estate, Consulting | Erdemli, Mersin",
-        "description": "Insurance, real estate, residency and consulting services in Mersin, Turkey. Expert team, personalised solutions.",
-        "ogTitle": "Merci Insurance & Consulting",
-        "ogDescription": "Expert insurance and consulting firm based in Mersin, Turkey."
+        "title": "Merci Insurance | Insurance & Consulting Agency in Mersin Erdemli",
+        "description": "Insurance, real estate, residency, legal consulting and sworn translation services in Mersin Erdemli, Turkey. Expert team, personalised solutions.",
+        "ogTitle": "Merci Insurance | Insurance & Consulting in Mersin",
+        "ogDescription": "Expert insurance agency and consulting firm based in Mersin Erdemli, Turkey. Trusted solutions."
     },
     "images": {
         "heroSrc": "img/img-russian-en-1.webp",
@@ -20,7 +20,7 @@
         "menuOpen": "Open menu"
     },
     "hero": {
-        "title": "Trusted Insurance<br>& Consulting",
+        "title": "Trusted Insurance<br>& Consulting in Mersin",
         "tagline": "Our expert team is here for your insurance, real estate, residency and consulting needs.",
         "callBtn": "Call Us",
         "waBtn": "WhatsApp"
@@ -45,34 +45,42 @@
         "items": [
             {
                 "title": "Insurance",
+                "subtitle": "Insurance Services in Mersin",
                 "desc": "We provide comprehensive insurance packages tailored to your every need."
             },
             {
                 "title": "Real Estate",
+                "subtitle": "Real Estate in Mersin Erdemli",
                 "desc": "Our expert team finds real estate solutions matching your budget and vision."
             },
             {
                 "title": "Residency & Citizenship",
+                "subtitle": "Residency & Citizenship in Mersin",
                 "desc": "Expert assistance for Turkish residency permits and citizenship applications."
             },
             {
                 "title": "Legal Support",
+                "subtitle": "Legal Consulting in Mersin",
                 "desc": "Reliable legal consulting services for all your legal needs."
             },
             {
                 "title": "Sworn Translation",
+                "subtitle": "Sworn Translation in Mersin",
                 "desc": "Certified sworn translation of official documents, accurate and prompt."
             },
             {
                 "title": "Financial Advisory",
+                "subtitle": "Financial Advisory in Mersin",
                 "desc": "Professional financial consulting to reach your financial goals."
             },
             {
                 "title": "Transfer Services",
+                "subtitle": "Transfers across Mersin Region",
                 "desc": "Safe and comfortable transfer services throughout the region."
             },
             {
                 "title": "Renovation",
+                "subtitle": "Renovation in Mersin Erdemli",
                 "desc": "Turnkey renovation and interior finishing solutions."
             }
         ]

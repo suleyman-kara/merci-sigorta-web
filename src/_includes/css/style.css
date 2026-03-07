@@ -744,6 +744,14 @@ p {
   flex: 1;
 }
 
+.service-subtitle {
+  font-size: .75rem;
+  color: var(--teal-dark);
+  font-weight: 500;
+  letter-spacing: .02em;
+  opacity: .7;
+}
+
 /* ══════════ INSURANCE ══════════ */
 #insurance {
   background: var(--white);
@@ -1017,10 +1025,10 @@ footer {
 
   #nav-menu {
     position: fixed;
-    top: var(--nav-h);
+    top: var(--current-nav-h, var(--nav-h));
     right: 0;
     width: 260px;
-    height: calc(100dvh - var(--nav-h));
+    height: calc(100dvh - var(--current-nav-h, var(--nav-h)));
     background: var(--white);
     flex-direction: column;
     gap: .25rem;
