@@ -45,43 +45,35 @@
         "items": [
             {
                 "title": "Sigorta",
-                "subtitle": "Mersin Erdemli Sigorta Hizmetleri",
-                "desc": "İhtiyacınız olan tüm sigorta paketleri ile hizmetinizdeyiz."
+                "desc": "Mersin ve Erdemli çevresindeki müşterilerimiz için ihtiyacınız olan tüm sigorta paketleri ile hizmetinizdeyiz."
             },
             {
                 "title": "Emlak",
-                "subtitle": "Mersin Erdemli Emlak Danışmanlığı",
-                "desc": "Bütçenize ve hayallerinize uygun gayrimenkul çözümleri sunuyoruz."
+                "desc": "Erdemli başta olmak üzere, bütçenize ve hayallerinize uygun gayrimenkul çözümleri sunuyoruz."
             },
             {
                 "title": "Vatandaşlık & İkamet",
-                "subtitle": "Mersin Yabancı Vatandaşlık İşlemleri",
-                "desc": "TC vatandaşlığı ve ikamet izni işlemlerinde uzman desteği."
+                "desc": "TC vatandaşlığı ve Mersin'de ikamet izni işlemlerinde yabancı misafirlerimize uzman desteği."
             },
             {
                 "title": "Hukuki Destek",
-                "subtitle": "Mersin Erdemli Hukuki Danışmanlık",
-                "desc": "Her türlü hukuki konuda güvenilir danışmanlık hizmeti."
+                "desc": "Her türlü hukuki konuda Erdemli merkezli ofisimizden güvenilir danışmanlık hizmeti."
             },
             {
                 "title": "Yeminli Tercümanlık",
-                "subtitle": "Mersin Yeminli Tercüme Hizmetleri",
                 "desc": "Resmi belgelerinizin hızlı ve güvenilir yeminli çevirisi."
             },
             {
                 "title": "Finansal Danışmanlık",
-                "subtitle": "Mersin Finansal Danışmanlık",
                 "desc": "Finansal hedeflerinize ulaşmanızda profesyonel destek."
             },
             {
                 "title": "Transfer Hizmetleri",
-                "subtitle": "Mersin Erdemli Transfer & Ulaşım",
                 "desc": "Güvenli ve konforlu transfer hizmetleri ile seyahatinizi kolaylaştırın."
             },
             {
                 "title": "Tadilat İşlemleri",
-                "subtitle": "Mersin Erdemli Tadilat & Dekorasyon",
-                "desc": "Anahtar teslim tadilat ve dekorasyon çözümleri sunuyoruz."
+                "desc": "Mersin genelinde konut ve iş yerleriniz için anahtar teslim tadilat çözümleri sunuyoruz."
             }
         ]
     },

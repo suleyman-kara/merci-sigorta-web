@@ -45,43 +45,35 @@
         "items": [
             {
                 "title": "Insurance",
-                "subtitle": "Insurance Services in Mersin",
-                "desc": "We provide comprehensive insurance packages tailored to your every need."
+                "desc": "We provide comprehensive insurance packages tailored to your every need for clients in Mersin and Erdemli."
             },
             {
                 "title": "Real Estate",
-                "subtitle": "Real Estate in Mersin Erdemli",
-                "desc": "Our expert team finds real estate solutions matching your budget and vision."
+                "desc": "Based in Erdemli, our expert team finds real estate solutions matching your budget and vision."
             },
             {
                 "title": "Residency & Citizenship",
-                "subtitle": "Residency & Citizenship in Mersin",
-                "desc": "Expert assistance for Turkish residency permits and citizenship applications."
+                "desc": "Expert assistance for Turkish residency permits in Mersin and citizenship applications."
             },
             {
                 "title": "Legal Support",
-                "subtitle": "Legal Consulting in Mersin",
-                "desc": "Reliable legal consulting services for all your legal needs."
+                "desc": "Reliable legal consulting services from our Erdemli-based office for all your legal needs."
             },
             {
                 "title": "Sworn Translation",
-                "subtitle": "Sworn Translation in Mersin",
                 "desc": "Certified sworn translation of official documents, accurate and prompt."
             },
             {
                 "title": "Financial Advisory",
-                "subtitle": "Financial Advisory in Mersin",
                 "desc": "Professional financial consulting to reach your financial goals."
             },
             {
                 "title": "Transfer Services",
-                "subtitle": "Transfers across Mersin Region",
                 "desc": "Safe and comfortable transfer services throughout the region."
             },
             {
                 "title": "Renovation",
-                "subtitle": "Renovation in Mersin Erdemli",
-                "desc": "Turnkey renovation and interior finishing solutions."
+                "desc": "Turnkey renovation and interior finishing solutions for properties across Mersin."
             }
         ]
     },
