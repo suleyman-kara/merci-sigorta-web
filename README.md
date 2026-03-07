@@ -126,6 +126,12 @@ Kök URL (`/`) otomatik olarak `/ru/` adresine yönlendirir. Yeni çeviriler `sr
 
 ---
 
+## 🤖 Geliştirme
+
+Bu proje [Antigravity](https://antigravity.dev) AI destekli kodlama asistanı kullanılarak geliştirilmiştir.
+
+---
+
 ## 📄 Lisans
 
 Bu proje tescilli bir yazılımdır. Tüm hakları saklıdır. Detaylar için [LICENSE](LICENSE) dosyasına bakınız.
