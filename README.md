@@ -54,9 +54,13 @@ Proje performans, SEO ve erişilebilirlik açısından sıkı şekilde optimize 
 
 ```
 merci-sigorta/
+├── .github/                # GitHub Actions iş akışları
+│   └── workflows/
+│       └── daily-build.yml # Günlük otomatik derleme
 ├── src/                    # Kaynak dosyalar
 │   ├── _data/
 │   │   ├── site.js         # Site geneli veriler (iletişim, adres, dil ayarları)
+│   │   ├── googleBusiness.js # Google İşletme verilerini çeken yapı
 │   │   └── i18n/           # Çeviri dosyaları
 │   │       ├── ru.json
 │   │       ├── tr.json
@@ -72,6 +76,7 @@ merci-sigorta/
 │   │       ├── about.njk
 │   │       ├── services.njk
 │   │       ├── insurance.njk
+│   │       ├── google-reviews.njk # Google Yorumlar bileşeni
 │   │       ├── showcase.njk
 │   │       └── footer.njk
 │   ├── img/                # Kaynak görseller
@@ -82,7 +87,8 @@ merci-sigorta/
 │   ├── en/index.njk        # İngilizce sayfa
 │   ├── ru/index.njk        # Rusça sayfa
 │   ├── sitemap.njk         # Sitemap şablonu
-│   └── robots.njk          # Robots.txt şablonu
+│   ├── robots.njk          # Robots.txt şablonu
+│   └── index.njk           # Kök dizin yönlendirmesi
 ├── docs/                   # Derlenmiş çıktı (GitHub Pages)
 ├── eleventy.config.js      # Eleventy yapılandırması
 └── package.json
