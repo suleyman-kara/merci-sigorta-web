@@ -2,8 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.mercisigorta.com/en/</loc>
+    <lastmod>2026-03-12T18:20:30.174Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mercisigorta.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://www.mercisigorta.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ru-BY" href="https://www.mercisigorta.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ru-KZ" href="https://www.mercisigorta.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ru-KG" href="https://www.mercisigorta.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ru-UZ" href="https://www.mercisigorta.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="tr-TR" href="https://www.mercisigorta.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mercisigorta.com/en/" />
+    <xhtml:link rel="alternate" hreflang="en-AZ" href="https://www.mercisigorta.com/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mercisigorta.com/ru/" />
+  </url>
+  <url>
     <loc>https://www.mercisigorta.com/ru/</loc>
-    <lastmod>2026-02-27T09:06:57.111Z</lastmod>
+    <lastmod>2026-03-12T18:20:30.178Z</lastmod>
     <xhtml:link rel="alternate" hreflang="ru" href="https://www.mercisigorta.com/ru/" />
     <xhtml:link rel="alternate" hreflang="ru-RU" href="https://www.mercisigorta.com/ru/" />
     <xhtml:link rel="alternate" hreflang="ru-BY" href="https://www.mercisigorta.com/ru/" />
@@ -17,21 +31,7 @@
   </url>
   <url>
     <loc>https://www.mercisigorta.com/tr/</loc>
-    <lastmod>2026-02-27T09:06:59.117Z</lastmod>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://www.mercisigorta.com/ru/" />
-    <xhtml:link rel="alternate" hreflang="ru-RU" href="https://www.mercisigorta.com/ru/" />
-    <xhtml:link rel="alternate" hreflang="ru-BY" href="https://www.mercisigorta.com/ru/" />
-    <xhtml:link rel="alternate" hreflang="ru-KZ" href="https://www.mercisigorta.com/ru/" />
-    <xhtml:link rel="alternate" hreflang="ru-KG" href="https://www.mercisigorta.com/ru/" />
-    <xhtml:link rel="alternate" hreflang="ru-UZ" href="https://www.mercisigorta.com/ru/" />
-    <xhtml:link rel="alternate" hreflang="tr-TR" href="https://www.mercisigorta.com/tr/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mercisigorta.com/en/" />
-    <xhtml:link rel="alternate" hreflang="en-AZ" href="https://www.mercisigorta.com/en/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mercisigorta.com/ru/" />
-  </url>
-  <url>
-    <loc>https://www.mercisigorta.com/en/</loc>
-    <lastmod>2026-02-27T09:07:01.130Z</lastmod>
+    <lastmod>2026-03-12T18:20:30.180Z</lastmod>
     <xhtml:link rel="alternate" hreflang="ru" href="https://www.mercisigorta.com/ru/" />
     <xhtml:link rel="alternate" hreflang="ru-RU" href="https://www.mercisigorta.com/ru/" />
     <xhtml:link rel="alternate" hreflang="ru-BY" href="https://www.mercisigorta.com/ru/" />
