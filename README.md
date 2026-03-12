@@ -34,6 +34,7 @@ Proje performans, SEO ve erişilebilirlik açısından sıkı şekilde optimize 
 | **Responsive tasarım** | Mobil öncelikli, tüm ekran boyutlarına uyumlu |
 | **Görsel optimizasyonu** | `@11ty/eleventy-img` ile AVIF & WebP formatlarında otomatik dönüşüm ve responsive `<picture>` çıktısı |
 | **Üretim optimizasyonu** | CSS minifikasyonu (CleanCSS), HTML minifikasyonu (html-minifier-terser) |
+| **Performans (Önbellekleme)** | Cloudflare üzerinden yerel web fontları (`.woff2`) ve statik dosyalar için Cache TTL optimizasyonu |
 | **SEO** | Hreflang etiketleri, Open Graph meta, sitemap.xml, robots.txt |
 | **Hosting** | `docs/` klasörüne çıktı — GitHub Pages uyumlu |
 
