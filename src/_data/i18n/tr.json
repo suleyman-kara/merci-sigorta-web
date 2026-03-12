@@ -101,6 +101,13 @@
         "card2Title": "Anahtar Teslim Tadilat & Dekorasyon",
         "card2Desc": "Konutunuzu hayalinizdeki mekâna dönüştürmek için profesyonel ekibimiz hizmetinizde."
     },
+    "reviews": {
+        "title": "Müşterilerimizin Gözünden",
+        "countText": "Değerlendirme",
+        "galleryTitle": "Ofisimizden Kareler",
+        "viewOnGoogle": "Google'da Görüntüle",
+        "lastUpdated": "Son Güncelleme"
+    },
     "footer": {
         "brandName": "Sigorta & Danışmanlık",
         "location": "Erdemli, Mersin — Türkiye",

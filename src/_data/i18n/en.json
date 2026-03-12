@@ -101,6 +101,13 @@
         "card2Title": "Turnkey Renovation & Decoration",
         "card2Desc": "Our professional team transforms your property into your dream space — turnkey."
     },
+    "reviews": {
+        "title": "What Our Clients Say",
+        "countText": "Reviews",
+        "galleryTitle": "From Our Office",
+        "viewOnGoogle": "View on Google",
+        "lastUpdated": "Last Updated"
+    },
     "footer": {
         "brandName": "Insurance & Consulting",
         "location": "Erdemli, Mersin — Turkey",

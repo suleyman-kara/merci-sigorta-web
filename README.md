@@ -144,6 +144,31 @@ Kök URL (`/`) otomatik olarak `/ru/` adresine yönlendirir. Yeni çeviriler `sr
 
 ---
 
+## ⭐️ Google Business Entegrasyonu 
+
+Site, Google Haritalar'daki işletme yorumlarınızı ve ofis fotoğraflarınızı güvenli bir şekilde çekip statik HTML'e yerleştirir. Bu işlem **Build-Time (Derleme Zamanı)** gerçekleştiği için site hızını asla yavaşlatmaz.
+
+### Ortam Değişkenleri (`.env`)
+Bu sistemin çalışması için projenin kök dizininde bir `.env` dosyası oluşturulmalı ve şu bilgiler girilmelidir:
+```env
+GOOGLE_API_KEY="AIza..."
+GOOGLE_PLACE_ID="ChIJ..."
+```
+
+*(Not: `AIza` ile başlayan API anahtarınız Google Cloud üzerinden yalnızca `www.mercisigorta.com` referansına izin verecek şekilde güvenceye alınmıştır. Bu yüzden resimler localhost yerine yalnızca sunucu tarafında oluşturulur ve `no-referrer` ile sunulur).*
+
+### Otomatik Güncellemeler (GitHub Actions)
+Site **GitHub Pages** (statik hosting) üzerinde çalıştığı için anlık istek atamaz. Yeni yorumların siteye yansıması için projenin yeniden HTML'e derlenmesi gerekir.
+
+Bu süreç repodaki **`.github/workflows/daily-build.yml`** dosyası ile **otomatikleştirilmiştir**.
+1. Her gece saat `03:00`'da (TRT) sanal bir makine açılır.
+2. `npm run build` komutu otomatik olarak çalıştırılır ve Google'dan en güncel yorumlar/puanlar çekilir.
+3. Çıkan yeni HTML dosyaları Commit atılarak ana branch'e yansıtılır ve GitHub Pages yenilenir.
+
+*Kurulum Notu:* GitHub deposunda bu işlemin çalışabilmesi için `Settings > Secrets and variables > Actions` altından `GOOGLE_API_KEY` ve `GOOGLE_PLACE_ID` şifrelerinin tanımlanmış olması gerekmektedir.
+
+---
+
 ## 🤖 Geliştirme
 
 Bu proje [Antigravity](https://antigravity.dev) AI destekli kodlama asistanı kullanılarak geliştirilmiştir.

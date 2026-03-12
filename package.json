@@ -14,5 +14,9 @@
     "clean-css": "^5.3.3",
     "html-minifier-terser": "^7.2.0"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@11ty/eleventy-fetch": "^5.1.1",
+    "dotenv": "^17.3.1"
+  }
 }
