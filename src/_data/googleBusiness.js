@@ -60,7 +60,7 @@ export default async function () {
         const formattedDate = `${now.getDate().toString().padStart(2, '0')}.${(now.getMonth() + 1).toString().padStart(2, '0')}.${now.getFullYear()}`;
 
         const processedData = {
-            rating: json.rating || 0,
+            rating: Number(json.rating || 0).toFixed(1),
             userRatingCount: json.userRatingCount || 0,
             lastUpdate: formattedDate,
             url: json.googleMapsUri || `https://www.google.com/maps/place/?q=place_id:${placeId}`,

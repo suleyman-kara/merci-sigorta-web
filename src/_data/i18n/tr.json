@@ -15,6 +15,7 @@
         "about": "Hakkımızda",
         "services": "Hizmetler",
         "insurance": "Sigorta",
+        "reviews": "Yorumlar",
         "contact": "İletişim",
         "logoAlt": "Merci Sigorta",
         "menuOpen": "Menüyü aç"
@@ -23,7 +24,8 @@
         "title": "Mersin'de Güvenilir<br>Sigorta & Danışmanlık",
         "tagline": "Uzman kadromuzla sigorta, emlak, vatandaşlık ve danışmanlık hizmetlerinde yanınızdayız.",
         "callBtn": "Bizi Arayın",
-        "waBtn": "WhatsApp"
+        "waBtn": "WhatsApp",
+        "reviewsBtn": "Müşteri Yorumları"
     },
     "about": {
         "label": "Hakkımızda",

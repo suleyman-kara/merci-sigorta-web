@@ -15,6 +15,7 @@
         "about": "About",
         "services": "Services",
         "insurance": "Insurance",
+        "reviews": "Reviews",
         "contact": "Contact",
         "logoAlt": "Merci Insurance",
         "menuOpen": "Open menu"
@@ -23,7 +24,8 @@
         "title": "Trusted Insurance<br>& Consulting in Mersin",
         "tagline": "Our expert team is here for your insurance, real estate, residency and consulting needs.",
         "callBtn": "Call Us",
-        "waBtn": "WhatsApp"
+        "waBtn": "WhatsApp",
+        "reviewsBtn": "Client Reviews"
     },
     "about": {
         "label": "About Us",
