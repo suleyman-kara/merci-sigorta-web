@@ -143,11 +143,11 @@ npm run clean
 
 | Dil | Yol | Çeviri Dosyası |
 |---|---|---|
-| Rusça (varsayılan) | `/ru/` | `src/_data/i18n/ru.json` |
+| İngilizce (varsayılan) | `/en/` | `src/_data/i18n/en.json` |
 | Türkçe | `/tr/` | `src/_data/i18n/tr.json` |
-| İngilizce | `/en/` | `src/_data/i18n/en.json` |
+| Rusça | `/ru/` | `src/_data/i18n/ru.json` |
 
-Kök URL (`/`) otomatik olarak `/ru/` adresine yönlendirir. Yeni çeviriler `src/_data/i18n/` klasörüne eklenerek yapılabilir.
+Kök URL (`/`) kullanıcının tarayıcı dilini (Türkçe, Rusça veya İngilizce) otomatik olarak algılar ve ilgili dile yönlendirir. Desteklenmeyen bir dil ise varsayılan olarak `/en/` adresine yönlendirme yapar. Yeni çeviriler `src/_data/i18n/` klasörüne eklenerek yapılabilir.
 
 ---
 

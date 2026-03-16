@@ -7,12 +7,24 @@ eleventyExcludeFromCollections: true
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=/ru/">
+    <script>
+        var userLang = navigator.language || navigator.userLanguage;
+        var langCode = userLang ? userLang.split('-')[0].toLowerCase() : 'en';
+        var supportedLangs = ['ru', 'tr', 'en'];
+        var targetUrl = supportedLangs.includes(langCode) ? '/' + langCode + '/' : '/en/';
+        window.location.replace(targetUrl);
+    </script>
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=/en/">
+    </noscript>
     <meta name="yandex-verification" content="53239eef26812c58" />
-    <link rel="canonical" href="https://www.mercisigorta.com/ru/">
+    <link rel="canonical" href="https://www.mercisigorta.com/">
     <title>Redirecting…</title>
 </head>
 <body>
-    <p>Redirecting to <a href="/ru/">/ru/</a>…</p>
+    <p>Redirecting…</p>
+    <script>
+        document.querySelector('p').innerHTML = 'Redirecting to <a href="' + targetUrl + '">' + targetUrl + '</a>…';
+    </script>
 </body>
 </html>
