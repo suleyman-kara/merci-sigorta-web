@@ -13,6 +13,7 @@
 
     <!-- ═══════════════════════ HERO ═══════════════════════ -->
     <section id="hero" aria-label="Hero">
+        <div class="hero-inner">
         <div class="hero-text">
             <h1>{{ t.hero.title | safe }}</h1>
             <p class="hero-tagline">{{ t.hero.tagline }}</p>
@@ -70,6 +71,7 @@
                 {%- endfor %}
             </div>
         </div>
+        </div>{# /hero-inner #}
 
         <div class="hero-scroll" aria-hidden="true">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
