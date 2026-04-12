@@ -7,7 +7,7 @@ export default function (eleventyConfig) {
     /* ── Passthrough copies ── */
     eleventyConfig.addPassthroughCopy("src/js");
     eleventyConfig.addPassthroughCopy("src/fonts");
-    eleventyConfig.addPassthroughCopy("src/img/favicon.ico");
+    eleventyConfig.addPassthroughCopy({ "src/img/favicon.ico": "favicon.ico" });
 
     /* ── CSS Minification Filter ── */
     eleventyConfig.addFilter("cssmin", function (code) {
