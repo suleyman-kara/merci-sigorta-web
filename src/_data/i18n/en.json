@@ -103,6 +103,10 @@
         "card2Title": "Turnkey Renovation & Decoration",
         "card2Desc": "Our professional team transforms your property into your dream space — turnkey."
     },
+    "gallery": {
+        "label": "Our Office",
+        "title": "Photos from Our Office"
+    },
     "footer": {
         "copyright": "© 2026 Merci Sigorta",
         "developerLink": "Designed by <a href=\"%URL%\" target=\"_blank\" rel=\"noopener noreferrer\">%NAME%</a>"

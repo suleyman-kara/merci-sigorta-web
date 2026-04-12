@@ -1,0 +1,29 @@
+<section id="gallery" class="section-pad">
+  <div class="container">
+    <div class="gallery-header animate">
+      <span class="section-label">{{ t.gallery.label }}</span>
+      <h2>{{ t.gallery.title }}</h2>
+      <div class="divider"></div>
+    </div>
+  </div>
+
+  <div class="gallery-wrapper animate" style="transition-delay: 0.1s;">
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        {% image "img/office1.jpeg", t.gallery.title, "100vw" %}
+      </div>
+      <div class="gallery-item">
+        {% image "img/office2.jpeg", t.gallery.title, "100vw" %}
+      </div>
+      <div class="gallery-item">
+        {% image "img/office3.jpeg", t.gallery.title, "(max-width: 991px) 80vw, 300px" %}
+      </div>
+      <div class="gallery-item">
+        {% image "img/office4.jpeg", t.gallery.title, "(max-width: 991px) 80vw, 300px" %}
+      </div>
+      <div class="gallery-item">
+        {% image "img/office5.jpeg", t.gallery.title, "(max-width: 991px) 80vw, 300px" %}
+      </div>
+    </div>
+  </div>
+</section>

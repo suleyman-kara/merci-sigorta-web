@@ -103,6 +103,10 @@
         "card2Title": "Anahtar Teslim Tadilat & Dekorasyon",
         "card2Desc": "Konutunuzu hayalinizdeki mekâna dönüştürmek için profesyonel ekibimiz hizmetinizde."
     },
+    "gallery": {
+        "label": "Ofisimiz",
+        "title": "Ofisimizden Kareler"
+    },
     "footer": {
         "copyright": "© 2026 Merci Sigorta",
         "developerLink": "<a href=\"%URL%\" target=\"_blank\" rel=\"noopener noreferrer\">%NAME%</a> tarafından tasarlandı."

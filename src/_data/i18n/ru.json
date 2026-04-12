@@ -103,6 +103,10 @@
         "card2Title": "Ремонтные и отделочные работы под ключ",
         "card2Desc": "Профессиональная команда превратит ваше жильё в пространство мечты — под ключ."
     },
+    "gallery": {
+        "label": "Наш офис",
+        "title": "Фотографии из нашего офиса"
+    },
     "footer": {
         "copyright": "© 2026 Merci Sigorta",
         "developerLink": "Дизайн от <a href=\"%URL%\" target=\"_blank\" rel=\"noopener noreferrer\">%NAME%</a>"
