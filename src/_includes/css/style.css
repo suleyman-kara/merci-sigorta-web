@@ -258,7 +258,8 @@ p {
   display: flex;
   align-items: center;
   background: transparent;
-  transition: height var(--transition), background var(--transition), box-shadow var(--transition);
+  transition: background var(--transition), box-shadow var(--transition);
+  will-change: background-color, box-shadow;
 }
 
 #navbar.scrolled {
@@ -495,7 +496,7 @@ p {
 
 /* ══════════ HERO ══════════ */
 #hero {
-  min-height: 100dvh;
+  min-height: 100svh;
   background: linear-gradient(135deg, var(--teal-deeper) 0%, var(--teal) 60%, #3dc0c8 100%);
   display: flex;
   align-items: center;
@@ -1300,7 +1301,7 @@ footer {
 
   .hero-inner {
     grid-template-columns: 1fr;
-    grid-template-rows: calc(100dvh - var(--nav-h)) auto;
+    grid-template-rows: calc(100svh - var(--nav-h)) auto;
     padding: 0 24px;
   }
 
